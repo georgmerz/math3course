@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Woche 1 &#8212; Mathematik 3</title>
+    <title>Woche 2 &#8212; Mathematik 3</title>
   
   
   
@@ -61,10 +61,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'Woche1';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Woche2';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Willkommen im Kurs Mathematik 3" href="intro.html" />
+    <link rel="prev" title="Woche 1" href="Woche1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -156,7 +158,8 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Woche 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Woche1.html">Woche 1</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Woche 2</a></li>
 </ul>
 
     </div>
@@ -228,7 +231,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/georgmerz/math3course/issues/new?title=Issue%20on%20page%20%2FWoche1.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/georgmerz/math3course/issues/new?title=Issue%20on%20page%20%2FWoche2.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -258,7 +261,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/Woche1.md" target="_blank"
+      <li><a href="_sources/Woche2.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -340,7 +343,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Woche 1</h1>
+    <h1>Woche 2</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -350,13 +353,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einteilung-in-der-statistik">1.1 Einteilung in der Statistik</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#merkmale">1.2 Merkmale</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#absolute-und-relative-haufigkeit">1.3 Absolute und Relative Häufigkeit</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arithmetisches-mittel">1.4 Arithmetisches Mittel</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#median">1.5 Median</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#p-quantil">1.6 P-Quantil</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stichprobenvarianz-und-stichprobenstandardabweichung">1.7 Stichprobenvarianz und Stichprobenstandardabweichung</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#korrelation-qualitativ">2.1 Korrelation Qualitativ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#die-definition-der-stichprobenkorrelation">2.2 Die Definition der Stichprobenkorrelation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#beispiel-berechnung-des-korrelationskoeffizienten">2.3 Beispiel:  Berechnung des Korrelationskoeffizienten</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#achtung-vor-scheinkorrelationen">2.4 Achtung vor Scheinkorrelationen</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regression-und-korrelationskoeffizient">2.5 Regression und Korrelationskoeffizient</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#datenanalyse">2.6 Datenanalyse</a></li>
 </ul>
             </nav>
         </div>
@@ -368,112 +370,94 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="woche-1">
-<h1>Woche 1<a class="headerlink" href="#woche-1" title="Permalink to this heading">#</a></h1>
-<p><a class="reference external" href="https://bwsyncandshare.kit.edu/s/Y5jaYPasDGNt3Xy">Link zur Powerpoint:</a></p>
-<section id="einteilung-in-der-statistik">
-<h2>1.1 Einteilung in der Statistik<a class="headerlink" href="#einteilung-in-der-statistik" title="Permalink to this heading">#</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="woche-2">
+<h1>Woche 2<a class="headerlink" href="#woche-2" title="Permalink to this heading">#</a></h1>
+<p><a class="reference external" href="https://bwsyncandshare.kit.edu/s/qtDRgKtajAkq9To">Link zur Powerpoint:</a></p>
+<section id="korrelation-qualitativ">
+<h2>2.1 Korrelation Qualitativ<a class="headerlink" href="#korrelation-qualitativ" title="Permalink to this heading">#</a></h2>
 <div class="admonition-das-sollten-sie-mitnehmen admonition">
 <p class="admonition-title">Das sollten Sie mitnehmen</p>
 <ul class="simple">
-<li><p>Was ist deskriptive Stastik?</p></li>
-<li><p>Was ist explorative Stastik?</p></li>
-<li><p>Was ist induktive Stastik?</p></li>
+<li><p>Was misst die Korrelation?</p></li>
+<li><p>Was bedeutet es wenn die Korrelation negativ ist?</p></li>
+<li><p>Was bedeutet es wenn die Korrelation positiv ist?</p></li>
+<li><p>Was bedeutet es wenn die Korrelation 0 ist.</p></li>
 </ul>
 </div>
 <div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dhhRBwJbYhs?si=1lDkXdDbTDoBHE-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/ipoBVf7gmb0?si=zisKIUlWrI9DCbcF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=621652">Hier kommen Sie zum zugehörigen Quiz</a></p>
+<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=624955">Hier kommen Sie zum zugehörigen Quiz</a></p>
 </section>
-<section id="merkmale">
-<h2>1.2 Merkmale<a class="headerlink" href="#merkmale" title="Permalink to this heading">#</a></h2>
+<section id="die-definition-der-stichprobenkorrelation">
+<h2>2.2 Die Definition der Stichprobenkorrelation<a class="headerlink" href="#die-definition-der-stichprobenkorrelation" title="Permalink to this heading">#</a></h2>
 <div class="admonition-das-sollten-sie-mitnehmen admonition">
 <p class="admonition-title">Das sollten Sie mitnehmen</p>
 <ul class="simple">
-<li><p>Was ist der Unterschied zwischen quantitaiven und qualitativen Daten?</p></li>
-<li><p>Was ist der Unterschied zwischen kontinuierlichen und diskreten Daten?</p></li>
-<li><p>Was ist der Unterschied zwischen univariaten und multivariaten Daten?</p></li>
+<li><p>Formel für die Stichprobenkovarianz.</p></li>
+<li><p>Formel für den Stichprobenkorrelationskoeffizient</p></li>
+<li><p>Wann ist der Stichprobenkorrelationskoeffizient -1 oder 1 ?</p></li>
 </ul>
 </div>
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mcVR53wuBT0?si=DsnmIayn32Sx1AQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=621753">Hier kommen Sie zum zugehörigen Quiz</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OVwPrYLXiPo?si=Ln7qrQyoIVBtKsBJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+[Hier kommen Sie zum zugehörigen Quiz](https://moodle.th-brandenburg.de/mod/quiz/view.php?id=624960)
 </section>
-<section id="absolute-und-relative-haufigkeit">
-<h2>1.3 Absolute und Relative Häufigkeit<a class="headerlink" href="#absolute-und-relative-haufigkeit" title="Permalink to this heading">#</a></h2>
+<section id="beispiel-berechnung-des-korrelationskoeffizienten">
+<h2>2.3 Beispiel:  Berechnung des Korrelationskoeffizienten<a class="headerlink" href="#beispiel-berechnung-des-korrelationskoeffizienten" title="Permalink to this heading">#</a></h2>
 <div class="admonition-das-sollten-sie-mitnehmen admonition">
 <p class="admonition-title">Das sollten Sie mitnehmen</p>
 <ul class="simple">
-<li><p>Notation für die relative/absolute Häufigkeit</p></li>
-<li><p>Formeln kennen und anwenden bzgl. relative/absolute Häufigkeit</p></li>
-<li><p>Berechnen der absoluten/relativen HÄufigkeit am Beispiel</p></li>
+<li><p>Wie man vorgeht beim berechnen des Korrelationskoeffizienten.</p></li>
 </ul>
 </div>
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_6aQlHxfXo?si=3pV2J60rEwSVlxWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E2RkpwsAIo4?si=l_8b3A_GKGEaEKQt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=621756">Hier kommen Sie zum zugehörigen Quiz</a></p>
+<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=624961">Hier kommen Sie zum zugehörigen Quiz</a></p>
 </section>
-<section id="arithmetisches-mittel">
-<h2>1.4 Arithmetisches Mittel<a class="headerlink" href="#arithmetisches-mittel" title="Permalink to this heading">#</a></h2>
+<section id="achtung-vor-scheinkorrelationen">
+<h2>2.4 Achtung vor Scheinkorrelationen<a class="headerlink" href="#achtung-vor-scheinkorrelationen" title="Permalink to this heading">#</a></h2>
 <div class="admonition-das-sollten-sie-mitnehmen admonition">
 <p class="admonition-title">Das sollten Sie mitnehmen</p>
 <ul class="simple">
-<li><p>Formel für die Berechnung des arithmetischen Mittel nachvollziehen.</p></li>
-<li><p>Bestimmung des arithmetischen Mittel in Beispielen</p></li>
+<li><p>Unterschied zwischen Kausalität und Korrelation</p></li>
+<li><p>Verstehen warum Scheinkorrelationen auftreten</p></li>
 </ul>
 </div>
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/86lIwpj7U1Q?si=rL_rhgtYHr4WEK7i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r8Q2Z9j5yho?si=mVb_PjNVpSbE127s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=622405">Hier kommen Sie zum zugehörigen Quiz</a></p>
+<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=624964">Hier kommen Sie zum zugehörigen Quiz</a></p>
 </section>
-<section id="median">
-<h2>1.5 Median<a class="headerlink" href="#median" title="Permalink to this heading">#</a></h2>
+<section id="regression-und-korrelationskoeffizient">
+<h2>2.5 Regression und Korrelationskoeffizient<a class="headerlink" href="#regression-und-korrelationskoeffizient" title="Permalink to this heading">#</a></h2>
 <div class="admonition-das-sollten-sie-mitnehmen admonition">
 <p class="admonition-title">Das sollten Sie mitnehmen</p>
 <ul class="simple">
-<li><p>Qualitatives Verständnis für die Bedeutung des Median</p></li>
-<li><p>Formel nachvollziehen können des Medians</p></li>
-<li><p>Bestimmung des Medians in Beispielen.</p></li>
+<li><p>Formel zur Bestimmung der Regressionsgerade (<span class="math notranslate nohighlight">\(a_0,a_1\)</span>)</p></li>
+<li><p>Zusammenhang des Vorzeichens von <span class="math notranslate nohighlight">\(a_1\)</span> und <span class="math notranslate nohighlight">\(r_{XY}\)</span></p></li>
 </ul>
 </div>
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yOgHhT_gXtg?si=lid02-giUItI-vfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kGfG6MWsgGg?si=ixh66HkZPwRwGumV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=622380">Hier kommen Sie zum zugehörigen Quiz</a></p>
+<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=624967">Hier kommen Sie zum zugehörigen Quiz</a></p>
 </section>
-<section id="p-quantil">
-<h2>1.6 P-Quantil<a class="headerlink" href="#p-quantil" title="Permalink to this heading">#</a></h2>
+<section id="datenanalyse">
+<h2>2.6 Datenanalyse<a class="headerlink" href="#datenanalyse" title="Permalink to this heading">#</a></h2>
 <div class="admonition-das-sollten-sie-mitnehmen admonition">
 <p class="admonition-title">Das sollten Sie mitnehmen</p>
 <ul class="simple">
-<li><p>Qualitatives Verständnis für die Bedeutung des p-Quantils</p></li>
-<li><p>Formel nachvollziehen können des p-Quantils</p></li>
-<li><p>Bestimmung des p-Quantils in Beispielen.</p></li>
+<li><p>Gefühl dafür bekommen, wie man mit Python und Daten arbeitet</p></li>
+<li><p>Darstellung von Korrelationskoeffizienten kennenlernen</p></li>
 </ul>
 </div>
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5YTg1lW11Lo?si=I7RRZbmSTvxg9YRS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<<iframe width="560" height="315" src="https://www.youtube.com/embed/a-xFLfjHUj8?si=mS9UkKmbBDaaHpv3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=622383">Hier kommen Sie zum zugehörigen Quiz</a></p>
-</section>
-<section id="stichprobenvarianz-und-stichprobenstandardabweichung">
-<h2>1.7 Stichprobenvarianz und Stichprobenstandardabweichung<a class="headerlink" href="#stichprobenvarianz-und-stichprobenstandardabweichung" title="Permalink to this heading">#</a></h2>
-<div class="admonition-das-sollten-sie-mitnehmen admonition">
-<p class="admonition-title">Das sollten Sie mitnehmen</p>
-<ul class="simple">
-<li><p>Qualitatives Verständnis für die Bedeutung der Varianz und der Standardabweichung</p></li>
-<li><p>Formel nachvollziehen können der Varianz und der Standardabweichung</p></li>
-<li><p>Bestimmung der Varianz und der Standardabweichung</p></li>
-</ul>
-</div>
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_vCuQ2nJjo?si=BLyt_nOJUvXsWpGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<p><a class="reference external" href="https://moodle.th-brandenburg.de/mod/quiz/view.php?id=622401">Hier kommen Sie zum zugehörigen Quiz</a></p>
+<p><a class="reference external" href="https://colab.research.google.com/drive/1BwtHhjZESditL6RHrChEOa_6U8O_x8tk#scrollTo=bLhCwmM35xjU">Hier kommen Sie zum zugehörigen Notebook</a></p>
 </section>
 </section>
 
@@ -506,12 +490,12 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="Woche1.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Willkommen im Kurs Mathematik 3</p>
+        <p class="prev-next-title">Woche 1</p>
       </div>
     </a>
 </div>
@@ -529,13 +513,12 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einteilung-in-der-statistik">1.1 Einteilung in der Statistik</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#merkmale">1.2 Merkmale</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#absolute-und-relative-haufigkeit">1.3 Absolute und Relative Häufigkeit</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arithmetisches-mittel">1.4 Arithmetisches Mittel</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#median">1.5 Median</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#p-quantil">1.6 P-Quantil</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stichprobenvarianz-und-stichprobenstandardabweichung">1.7 Stichprobenvarianz und Stichprobenstandardabweichung</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#korrelation-qualitativ">2.1 Korrelation Qualitativ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#die-definition-der-stichprobenkorrelation">2.2 Die Definition der Stichprobenkorrelation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#beispiel-berechnung-des-korrelationskoeffizienten">2.3 Beispiel:  Berechnung des Korrelationskoeffizienten</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#achtung-vor-scheinkorrelationen">2.4 Achtung vor Scheinkorrelationen</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regression-und-korrelationskoeffizient">2.5 Regression und Korrelationskoeffizient</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#datenanalyse">2.6 Datenanalyse</a></li>
 </ul>
   </nav></div>
 
