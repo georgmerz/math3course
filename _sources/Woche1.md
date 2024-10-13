@@ -1,5 +1,6 @@
 # Woche 1
 [Link zur Powerpoint:](https://bwsyncandshare.kit.edu/s/Y5jaYPasDGNt3Xy)
+
 ## 1.1 Einteilung in der Statistik
 ```{admonition} Das sollten Sie mitnehmen
 - Was ist deskriptive Stastik?
