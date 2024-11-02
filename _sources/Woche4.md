@@ -44,7 +44,7 @@
 - Zusammenhang zwischen stetiger Verteilungsfunktion und Dichtefunktion
 ```
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nRdVfOsHT0Q?si=xNe1jhDpmd1avopb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I3ZTr7Tat5U?si=lPTR1LLkir9ivbiH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 [Hier kommen Sie zum zugehörigen Quiz](https://moodle.th-brandenburg.de/mod/quiz/view.php?id=628621)
